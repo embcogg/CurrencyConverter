@@ -13,6 +13,8 @@
 		2C9990BD2B82CEF00093A837 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C9990BB2B82CEF00093A837 /* Main.storyboard */; };
 		2C9990BF2B82CEF10093A837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C9990BE2B82CEF10093A837 /* Assets.xcassets */; };
 		2C9990C22B82CEF10093A837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C9990C02B82CEF10093A837 /* LaunchScreen.storyboard */; };
+		2C9990CA2B82CF2D0093A837 /* ConverterLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9990C92B82CF2D0093A837 /* ConverterLogic.swift */; };
+		2C9990CC2B82CF5A0093A837 /* ConverterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9990CB2B82CF5A0093A837 /* ConverterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2C9990BE2B82CEF10093A837 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C9990C12B82CEF10093A837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C9990C32B82CEF10093A837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C9990C92B82CF2D0093A837 /* ConverterLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterLogic.swift; sourceTree = "<group>"; };
+		2C9990CB2B82CF5A0093A837 /* ConverterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				2C9990B52B82CEF00093A837 /* AppDelegate.swift */,
 				2C9990B72B82CEF00093A837 /* SceneDelegate.swift */,
 				2C9990B92B82CEF00093A837 /* ViewController.swift */,
+				2C9990CB2B82CF5A0093A837 /* ConverterView.swift */,
 				2C9990BB2B82CEF00093A837 /* Main.storyboard */,
 				2C9990BE2B82CEF10093A837 /* Assets.xcassets */,
 				2C9990C02B82CEF10093A837 /* LaunchScreen.storyboard */,
 				2C9990C32B82CEF10093A837 /* Info.plist */,
+				2C9990C92B82CF2D0093A837 /* ConverterLogic.swift */,
 			);
 			path = CurrencyConverterCoggins;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C9990BA2B82CEF00093A837 /* ViewController.swift in Sources */,
+				2C9990CA2B82CF2D0093A837 /* ConverterLogic.swift in Sources */,
 				2C9990B62B82CEF00093A837 /* AppDelegate.swift in Sources */,
+				2C9990CC2B82CF5A0093A837 /* ConverterView.swift in Sources */,
 				2C9990B82B82CEF00093A837 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
